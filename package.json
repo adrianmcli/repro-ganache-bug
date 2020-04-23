@@ -1,0 +1,27 @@
+{
+  "name": "repro-ganache-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./start-ganache",
+    "migrate": "truffle migrate --reset --network ganache"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^1.0.34",
+    "ganache-cli": "^6.9.1",
+    "ganache-core": "^2.10.2",
+    "truffle": "^5.1.22"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ethers": "^4.0.47"
+  }
+}
